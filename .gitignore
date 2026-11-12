@@ -1,0 +1,27 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Dataset files
+artifacts/ds1.npz
+artifacts/ds2.npz
+
+# Existing model predictions
+artifacts/preds/*.npz
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,11 @@
+Corrected patient-grouped Stage 1/2 source bundle
+
+1. MIT-BIH records 201 and 202 are from the same subject. Both are assigned to DS1.
+2. DS1 has 23 records / 22 subjects; DS2 has 21 records / 21 subjects.
+3. `pid` is subject ID; `record_id` is stored separately in ds1.npz/ds2.npz.
+4. `verify_dataset.py` exits nonzero on hard failures.
+5. Build real MIT-BIH data, verify it, then regenerate folds.json once with `python src/make_folds.py`.
+6. Old Stage 2 metrics/predictions from the previous split are historical only.
+7. Stage 2 cache reuse now requires a matching SHA-256 hash of ds1.npz.
+8. This bundle omits the old folds.json so it cannot accidentally be reused.
+9. Synthetic data is only for plumbing tests; never report synthetic results.

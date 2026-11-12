@@ -1,0 +1,86 @@
+{
+  "description": "Record 202 moved from DS2 to DS1 and grouped with record 201 as the same subject.",
+  "evaluation_warning": "DS2 has already been accessed during Stage 4. This corrected copy is NOT an untouched, pristine, or previously unseen test set.",
+  "moved_record_202_beats": 2134,
+  "ds1": {
+    "beats": 53111,
+    "record_count": 23,
+    "subject_count": 22,
+    "records": [
+      101,
+      106,
+      108,
+      109,
+      112,
+      114,
+      115,
+      116,
+      118,
+      119,
+      122,
+      124,
+      201,
+      202,
+      203,
+      205,
+      207,
+      208,
+      209,
+      215,
+      220,
+      223,
+      230
+    ],
+    "label_counts": {
+      "0": 47883,
+      "1": 998,
+      "2": 3807,
+      "3": 415,
+      "4": 8
+    },
+    "sha256": "74bfdda3fe8d2d73b13b00596271eb15418ee1bd13046e0aa7e42186eba54644"
+  },
+  "ds2": {
+    "beats": 47534,
+    "record_count": 21,
+    "subject_count": 21,
+    "records": [
+      100,
+      103,
+      105,
+      111,
+      113,
+      117,
+      121,
+      123,
+      200,
+      210,
+      212,
+      213,
+      214,
+      219,
+      221,
+      222,
+      228,
+      231,
+      232,
+      233,
+      234
+    ],
+    "label_counts": {
+      "0": 42159,
+      "1": 1781,
+      "2": 3200,
+      "3": 387,
+      "4": 7
+    },
+    "sha256": "5e4269ad60fc37d6b9fefe9fc2c6d038ada7d989548ecb902053ab70c45b2fea"
+  },
+  "arrays": {
+    "X": "float32 [n,216]",
+    "rr": "float32 [n,4]",
+    "y": "int64 [n]",
+    "pid": "subject grouping ID (201 and 202 share pid=201)",
+    "record_id": "original MIT-BIH record identifier"
+  }
+}
