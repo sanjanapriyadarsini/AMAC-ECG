@@ -1,0 +1,11 @@
+{
+  "model": "CNN + Focal Loss + RR, seed 0",
+  "device": "cuda",
+  "batch_size": 256,
+  "trainable_parameters": 146189,
+  "checkpoint_bytes": 602550,
+  "batch_latency_ms_mean": 2.694358300004751,
+  "latency_ms_per_beat": 0.010524837109393559,
+  "warmup_batches": 10,
+  "repeats": 50
+}
