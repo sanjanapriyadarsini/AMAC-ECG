@@ -1,0 +1,29 @@
+{
+  "status": "completed",
+  "timestamp_utc": "2026-11-15T10:09:57Z",
+  "elapsed_seconds": 4512.500731945038,
+  "ds1_sha256": "74bfdda3fe8d2d73b13b00596271eb15418ee1bd13046e0aa7e42186eba54644",
+  "ds2_sha256": "5e4269ad60fc37d6b9fefe9fc2c6d038ada7d989548ecb902053ab70c45b2fea",
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "configurations": [
+    "LR + Unweighted + RR",
+    "LR + Unweighted + Waveform Only",
+    "LR + Class Weight + RR",
+    "LR + Class Weight + Waveform Only",
+    "XGBoost + Class Weight + RR",
+    "XGBoost + Class Weight + Waveform Only",
+    "CNN + Class Weight + RR",
+    "CNN + Class Weight + Waveform Only",
+    "CNN + Focal Loss + RR",
+    "CNN + Focal Loss + Waveform Only"
+  ],
+  "runs_completed": 50,
+  "ds2_usage_in_this_run": "not used for fitting, model selection, calibration fitting, or threshold tuning; opened only in final evaluation",
+  "historical_note": "Repository DATA_README documents prior Stage 4 access; this run does not claim DS2 is historically untouched."
+}
