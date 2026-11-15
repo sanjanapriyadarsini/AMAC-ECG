@@ -1,0 +1,17 @@
+{
+  "stage": 5,
+  "status": "completed",
+  "method": "KernelSHAP",
+  "model": "CNN + Focal Loss + RR, seed 0",
+  "fit_data": "DS1 only",
+  "early_stopping_fold": 0,
+  "explanation_data": "bounded DS2 class-stratified sample; explanatory only",
+  "ds1_sha256": "74bfdda3fe8d2d73b13b00596271eb15418ee1bd13046e0aa7e42186eba54644",
+  "ds2_sha256": "5e4269ad60fc37d6b9fefe9fc2c6d038ada7d989548ecb902053ab70c45b2fea",
+  "n_background": 12,
+  "n_explained": 16,
+  "nsamples": 100,
+  "efficiency": {"device":"cuda","batch_size":256,"trainable_parameters":146189,"checkpoint_bytes":602550,"batch_latency_ms_mean":2.694358300004751,"latency_ms_per_beat":0.010524837109393559,"warmup_batches":10,"repeats":50},
+  "faithfulness_summary": {"n_examples":16,"top20_drop_mean":0.241150,"random_drop_mean":0.235358,"fraction_top20_better_than_random":0.625},
+  "limitations": ["SHAP values are model attributions, not causal explanations.","The explanation sample is small and class-stratified.","Zero masking may create out-of-distribution inputs.","DS2 historical-access disclosure is retained.","No clinician-led clinical validation is claimed."]
+}
